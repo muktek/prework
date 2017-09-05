@@ -90,14 +90,14 @@ body, li, p {
 }
 
 .markdown-section{
-  padding: 0 .5em;
+  padding: 0 .75em 1em .75em;
   background: #fff;
 }
 
 
 
 .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6{
-  font-weight: 600;
+  font-weight: 200;
   font-family: 'Libre Franklin', sans-serif;
 }
 
@@ -116,4 +116,11 @@ body, li, p {
 .markdown-section table ul{
   margin-top: .85em;
   margin-bottom: .85em;
+}
+
+div > iframe {
+  width: 95% !important;
+  margin: 0 auto !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
 }

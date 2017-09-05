@@ -14,7 +14,8 @@
 
 ### HTML CSS Fundamentals
 
-
++ [HTML Basics](./courseModules/html-css-fundamentals/html-basics/README.md)
++ [CSS Basics](./courseModules/html-css-fundamentals/css-basics/README.md)
 
 ### JavaScript Foundations
 

@@ -7,6 +7,10 @@ function generateCourse(name){
   course.generateAssignment('dev-foundations', 'web-basics', 'Web Basics')
 
   course.generateSection('html-css-fundamentals', 'HTML CSS Fundamentals')
+  course.generateAssignment('html-css-fundamentals', 'html-basics', 'HTML Basics')
+  course.generateAssignment('html-css-fundamentals', 'css-basics', 'CSS Basics')
+
+
   course.generateSection('js-foundations', 'JavaScript Foundations')
   course.generateSection('frontend-foundations', 'Front End Foundations')
 
