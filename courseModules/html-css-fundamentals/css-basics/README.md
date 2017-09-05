@@ -31,7 +31,7 @@ The goal of this module is to develop familiarity with CSS syntax and how CSS is
   - border
   - margin
 
-## Homework
+## Assignment
 
 #### Complete *Learn CSS* module on codeacademy
 
@@ -47,12 +47,18 @@ The goal of this module is to develop familiarity with CSS syntax and how CSS is
 
 3. Why is it more useful to reference a class attribute (eg: `.publish-time`) rather than a tag (eg: `h1`) for applying styles ?
 
-4.  Which what color will the `h4` element be?
+4. What is the difference between using the `id` attribute and the `class` attribute for applying styles?
+
+5.  Which what color will the `h4` element be?
   ```html
   <h4 id="article-02" class="subtitle">
   ```
 
   ```css
+  h4 {
+    color: black;
+  }
+
   #article-02 {
     color: red;
   }
@@ -61,6 +67,10 @@ The goal of this module is to develop familiarity with CSS syntax and how CSS is
     color: blue;
   }
   ```
+
+6. What is the proper CSS syntax to style all `<a>` elements that are descendants of `<div class="link-group">`
+
+7. What is the difference between border, margin, and padding?
 
 
 ---

@@ -4,7 +4,6 @@
   "description": "## Course Outline Week 1 -- HTML + CSS",
   "main": "index.js",
   "scripts": {
-    "deploy" : "cd ./_book && surge",
     "dev": "./node_modules/.bin/gitbook serve",
     "build": "npm-run-all build:course build:gitbook build:cname",
     "build:course": "node ./_exec/buildCourse.js",

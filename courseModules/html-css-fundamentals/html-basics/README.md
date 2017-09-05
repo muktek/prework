@@ -30,7 +30,10 @@ The goal of this module is to develop familiarity with HTML syntax used to add c
     `<html>`, `<head>`, `<body>`
 
 
-#### Complete *Learn HTML* module on codeacademy
+## Assignment
+
+#### Complete *Learn CSS* module on codeacademy
+
 
 This module should take **3 hours** to complete.
 
@@ -41,15 +44,24 @@ This module should take **3 hours** to complete.
 ---
 #### Questions to answer
 
-- What does HTML stand for?
-- What is the declaration to tell the browser that we are writing HTML (the first line of code in our webpage)?
-- What is the anatomy (parts) of an HTML element?
-- What is an example of a self-closing element?
-- Why is it good to use indentation?
-- What is the main use of a div? Wrap elements/text into sections.
-- What are 2 tags that are used to style text?
-- What is element can you use to create a list in HTML?
-- What is the attribute applied to images to display more information about the image?
-- Why is helpful to include comments in your code?
+1. What does HTML stand for?
+
+2. What is the declaration to tell the browser that we are writing HTML (the first line of code in our webpage)?
+
+3. What is the anatomy (parts) of an HTML element?
+
+4. What is an example of a self-closing element?
+
+5. Why is it good to use indentation?
+
+6. What is the main use of a div? Wrap elements/text into sections.
+
+7. What are 2 tags that can be used to style text?
+
+8. What is element can you use to create a list in HTML?
+
+9. What is the attribute applied to images to display more information about the image?
+
+10. Why is helpful to include comments in your code?
 
 ---
