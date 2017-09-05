@@ -34,12 +34,13 @@ The goal of this module is to develop familiarity with HTML syntax used to add c
 
 #### Complete <u>*Learn HMTL*</u> module on codeacademy
 
+This module should take about **2 - 4 hours** to complete.
 
-This module should take about **3 hours** to complete.
+> *Read the explanations and examples in the left panel before and while you complete the code exercises. It is important that you <u>understand</u> what is happening when you modify the code.*
 
 [Codeacademy: Learn HTML](https://www.codecademy.com/learn/learn-html)
 
-<small>**NOTE:** You will need to register a free account with codeacademy. You do not have to pay for the service to take this mini-course.</small>
+**NOTE:** You will need to register a free account with codeacademy. You will not need to sign up for 'Pro' and pay for the service to satisfactorily complete this mini-course.
 
 ---
 #### Questions to answer

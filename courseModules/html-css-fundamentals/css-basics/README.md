@@ -41,13 +41,17 @@ The goal of this module is to develop familiarity with CSS syntax and how CSS is
 
 #### Complete <u>*Learn CSS*</u> module on codeacademy
 
-This module should take about **4 - 6 hours** to complete.
+This module should take about **5 - 8 hours** to complete.
+
+> *Read the explanations and examples in the left panel before and while you complete the code exercises. It is important that you <u>understand</u> what is happening when you modify the code.*
+
 
 [Codeacademy: Learn CSS](https://www.codecademy.com/learn/learn-css)
 
-<small>**NOTE:** You will need to register a free account with codeacademy. You do not have to pay for the service to take this mini-course.</small>
+**NOTE:** You will need to register a free account with codeacademy. You will not need to sign up for 'Pro' and pay for the service to satisfactorily complete this mini-course.
 
 ---
+#### Questions to answer
 
 1. Why do developers use 2 different files for HTML and CSS?
 
