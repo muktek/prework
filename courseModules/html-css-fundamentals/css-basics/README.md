@@ -19,6 +19,15 @@ The goal of this module is to develop familiarity with CSS syntax and how CSS is
   - modifying styles with css-properties + values
   - common CSS properties
 
+- The CSS box model
+  - padding
+  - border
+  - margin
+
+- CSS `position` values:
+  - padding
+  - border
+  - margin
 
 - CSS `display` types:
   - block
@@ -26,16 +35,15 @@ The goal of this module is to develop familiarity with CSS syntax and how CSS is
   - inline
 
 
-- The CSS box model
-  - padding
-  - border
-  - margin
+
 
 ## Assignment
 
-#### Complete *Learn CSS* module on codeacademy
+#### Complete <u>*Learn CSS*</u> module on codeacademy
 
-[Codeacademy: Learn HTML](https://www.codecademy.com/learn/learn-css)
+This module should take about **4 - 6 hours** to complete.
+
+[Codeacademy: Learn CSS](https://www.codecademy.com/learn/learn-css)
 
 <small>**NOTE:** You will need to register a free account with codeacademy. You do not have to pay for the service to take this mini-course.</small>
 
@@ -72,5 +80,18 @@ The goal of this module is to develop familiarity with CSS syntax and how CSS is
 
 7. What is the difference between border, margin, and padding?
 
+8. What is the purpose of `auto` in `margin: 0 auto`?
+
+9. Why do we use properties such as `min-width` and `max-width` for some elements instead of `width`?
+
+10. What is the difference between `position: fixed` and `position: absolute`?
+
+11. Why is `position: relative` important with respect to `position: absolute`?
+
+12. What is the behavior of a `display: block` element? What are 3 elements that have `display: block` by default?
+
+13. What is the behavior of a `display: inline` element? What is 1 element that has `display: inline` by default?
+
+14. What is the behavior of a `display: inline-block` element? When is it useful to use `display: inline-block`?
 
 ---

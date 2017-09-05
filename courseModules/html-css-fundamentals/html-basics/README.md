@@ -32,10 +32,10 @@ The goal of this module is to develop familiarity with HTML syntax used to add c
 
 ## Assignment
 
-#### Complete *Learn CSS* module on codeacademy
+#### Complete <u>*Learn HMTL*</u> module on codeacademy
 
 
-This module should take **3 hours** to complete.
+This module should take about **3 hours** to complete.
 
 [Codeacademy: Learn HTML](https://www.codecademy.com/learn/learn-html)
 
