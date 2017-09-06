@@ -1,0 +1,477 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Muktek Prework | JS Basics - Part 1 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="generator" content="GitBook 3.2.2">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Montserrat:200,300,400" rel="stylesheet">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="/assets/images/icono_blanco__icon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="../../html-css-fundamentals/css-basics/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        <main class="book-summary-header">
+          <img class="book-full-header-img" src="/assets/images/icono_blanco.png" alt="muktek-logo">
+          <h2 class="book-full-header-title">Muktek Prework</h2>
+        </main>
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">
+           
+             Introduction
+           
+        </li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Prework Outline
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">
+           
+             1 - Developer Foundations
+           
+        </li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../dev-foundations/growth-mindset/">
+            
+                <a href="../../dev-foundations/growth-mindset/">
+            
+                    
+                    Growth Mindset
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../dev-foundations/web-basics/">
+            
+                <a href="../../dev-foundations/web-basics/">
+            
+                    
+                    Web Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">
+           
+             2 - HTML CSS Fundamentals
+           
+        </li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../html-css-fundamentals/html-basics/">
+            
+                <a href="../../html-css-fundamentals/html-basics/">
+            
+                    
+                    HTML Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../../html-css-fundamentals/css-basics/">
+            
+                <a href="../../html-css-fundamentals/css-basics/">
+            
+                    
+                    CSS Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">
+           
+             3 - JavaScript Foundations
+           
+        </li>
+        
+        
+    
+        <li class="chapter active" data-level="4.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    JS Basics - Part 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">
+           
+             4 - Front End Foundations
+           
+        </li>
+        
+        
+    
+
+    
+
+    <li class="divider"></li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >JS Basics - Part 1</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="js-basics">JS Basics</h1>
+<h2 id="overview">Overview</h2>
+<p>The front-end of the web is composed of three languages:</p>
+<ul>
+<li>HTML  : Structure &amp; Content</li>
+<li>CSS : Styles</li>
+<li><mark>JavaScript : Behavior/Interactivity</mark></li>
+</ul>
+<p>This module focuses on Javascript, the language used for making webpages interactive. Here are some examples of Javascript interactivity from Facebook:</p>
+<ul>
+<li>The application displays more comments when I click on the &apos;Comments&apos; link</li>
+<li>The color of the &apos;Like&apos; icon changes and the text abobe reads when &apos;You and ... others&apos; when I click the &apos;Like&apos; Icon</li>
+<li>The list of comments change when I click &apos;Top Comments&apos; or &apos;Most Recent&apos;.
+<img src="../../../assets/images/js-demo.gif" alt="demo-js"></li>
+</ul>
+<p>Javascript has grown in popularity and developers now use the language on the client-side (for user-interface logic) and on the server-side (for business/database logic).</p>
+<p>In the modules for this section, we are going to practice and re-practice the basics of the language. Finally, in the next module, we will see how to use Javascript to make a webpage respond to user actions.</p>
+<h2 id="learning-objectives">Learning Objectives</h2>
+<p>The goal of this module is to develop familiarity with basic Javascript syntax and programming logic.</p>
+<ul>
+<li>JS Basic Syntax<ul>
+<li><code>console.log()</code></li>
+<li>data types<ul>
+<li>Strings</li>
+<li>Numbers</li>
+<li>Booleans</li>
+<li><code>null</code></li>
+</ul>
+</li>
+<li>variable declarations (<code>let</code>, <code>const</code>)</li>
+<li>combining strings</li>
+<li>simple math operations</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>JS Control Flow<ul>
+<li>How to make different blocks of code run with <code>if()...else...</code> statements</li>
+<li>Comparators: <code>&gt;</code>, <code>&lt;</code>, <code>===</code> , <code>!==</code></li>
+<li>Logical Operators: <code>&amp;&amp;</code> + <code>||</code> to evaluate the truth/falsity of multiple assertions.</li>
+<li>adding extra conditions with <code>else if(...)</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="assignment">Assignment</h2>
+<h4 id="complete-introduction-to-javascript--variables-and--control-flow--and--modules-on-codeacademy">Complete <em>Introduction to Javascript</em> , <em>Variables</em> and , <em>Control Flow</em> , and * modules on codeacademy</h4>
+<ul>
+<li><a href="https://www.codecademy.com/courses/learn-javascript-introduction/lessons/introduction-to-javascript/exercises/intro" target="_blank">Codeacademy: Introduction To JavaScript</a></li>
+<li><a href="https://www.codecademy.com/courses/learn-javascript-introduction/lessons/variables/exercises/intro-variables" target="_blank">Codeacademy: Variables</a></li>
+<li><a href="https://www.codecademy.com/courses/learn-javascript-control-flow/lessons/control-flow/exercises/control-flow-intro" target="_blank">Codeacademy: Introduction to Control Flow</a> (if-else)</li>
+</ul>
+<p><small><strong>NOTE:</strong> You will need to register a free account with codeacademy. You do not have to pay for the service to take this mini-course.</small></p>
+<hr>
+<h4 id="questions-to-answer">Questions to answer</h4>
+<ol>
+<li><p>What is the purpose of <code>console.log(...)</code>?</p>
+</li>
+<li><p>What are differences between these data types:</p>
+<ul>
+<li>String</li>
+<li>Number</li>
+<li>Boolean</li>
+<li><code>null</code></li>
+</ul>
+</li>
+<li><p>What is an instance of a string? How do we access more information about the string (like it&apos;s length)?</p>
+</li>
+<li><p>What does a built-in method allow us to do (ex: <code>.toLowerCase()</code>)? Do built-in methods change the value of the original instance?</p>
+</li>
+<li><p>What are some operations that the <code>Math</code> library provides?</p>
+</li>
+<li><p>What is one way that you can create a comments in your code? Why are code comments useful?</p>
+</li>
+<li><p>How can you create a variable in javascript? Why are variables useful?</p>
+</li>
+<li><p>What is the difference between <code>let</code> and <code>const</code>?</p>
+</li>
+<li><p>What is an &apos;undefined&apos; variable?</p>
+</li>
+<li><p>How can you combine (interpolate) two or more strings?</p>
+</li>
+<li><p>What is the purpose of an <code>if()...else</code> statement? What kind of value goes inside the parentheses for the <code>if(...)</code>?</p>
+</li>
+<li><p>What is the difference between a &apos;truthy&apos; value and <code>true</code>? What are some examples of &apos;falsy&apos; values in JS?</p>
+<ul>
+<li><em>Note: this is an idiosyncrasy of Javascript</em></li>
+</ul>
+</li>
+<li><p>Which will code block will print to the console for <code>(a)</code> and <code>(b)</code>? Why?</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> yourName = <span class="hljs-string">&apos;&apos;</span>
+<span class="hljs-keyword">let</span> zeroHero = <span class="hljs-number">0</span>
+
+<span class="hljs-comment">//(b)</span>
+<span class="hljs-keyword">if</span>(yourName){
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Your name is blank&apos;</span>);
+} <span class="hljs-keyword">else</span> {
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Nobody knows your name&apos;</span>);
+}
+
+<span class="hljs-comment">// (b)</span>
+<span class="hljs-keyword">if</span>(zeroHero){
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Hero&apos;</span>);
+} <span class="hljs-keyword">else</span> {
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Zero&apos;</span>);
+}
+</code></pre>
+</li>
+</ol>
+<hr>
+<ol>
+<li><p>What are the values of <code>passedTest</code>, <code>txtResult</code>, and <code>numResult</code>?</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> passingScore = <span class="hljs-number">60</span>;
+<span class="hljs-keyword">let</span> myScore = <span class="hljs-number">77</span>;
+<span class="hljs-keyword">let</span> passedTest = myScore &gt; passingScore;
+
+<span class="hljs-keyword">let</span> numResult = <span class="hljs-number">3</span> + <span class="hljs-number">3</span> === <span class="hljs-number">6</span>;
+<span class="hljs-keyword">let</span> txtResult = <span class="hljs-string">&apos;Mister Potato&apos;</span> !== <span class="hljs-string">&apos;mister potato&apos;</span>;
+</code></pre>
+</li>
+<li><p>Where is it normally useful to apply the <code>===</code> and <code>!==</code> operators?</p>
+</li>
+<li><p>Which code blocks will run for <code>(a)</code>, <code>(b)</code>, <code>(c)</code>, <code>(d)</code>?</p>
+<p>```js
+let feelingHappy = true;
+let isWarmOutside = false;
+let isCloudyOutside = false;</p>
+<p>//(a)
+if( feelingHappy === true &amp;&amp; isWarmOutside === true){
+console.log(&apos;Wear a red shirt&apos;);
+} else {
+console.log(&apos;Wear a blue shirt&apos;);
+}</p>
+<p>//(b)
+if( feelingHappy === true || isWarmOutside === true){
+console.log(&apos;Wear a green shirt&apos;);
+} else {
+console.log(&apos;Wear a yellow shirt&apos;);
+}</p>
+</li>
+</ol>
+<p> //(c)
+ if( feelingHappy === true &amp;&amp; isWarmOutside === false ){
+   console.log(&apos;Wear a purple shirt&apos;);
+ } else {
+   console.log(&apos;Wear a brown shirt&apos;);
+ }</p>
+<p> //(d)
+ if(
+   feelingHappy === true ||
+   (isWarmOutside === true &amp;&amp; isCloudyOutside === true)
+ ){
+   console.log(&apos;Wear a purple shirt&apos;);
+ } else {
+   console.log(&apos;Wear a brown shirt&apos;);
+ }
+ ```</p>
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../../html-css-fundamentals/css-basics/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: CSS Basics">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"JS Basics - Part 1","level":"4.1","depth":1,"previous":{"title":"CSS Basics","level":"3.2","depth":1,"path":"courseModules/html-css-fundamentals/css-basics/README.md","ref":"./courseModules/html-css-fundamentals/css-basics/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["youtube","livereload"],"pluginsConfig":{"youtube":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"courseModules/js-foundations/js-basics-1/README.md","mtime":"2017-09-06T19:09:17.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-09-06T19:05:30.402Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

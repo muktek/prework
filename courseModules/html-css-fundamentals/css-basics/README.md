@@ -36,7 +36,6 @@ The goal of this module is to develop familiarity with CSS syntax and how CSS is
 
 
 
-
 ## Assignment
 
 #### Complete <u>*Learn CSS*</u> module on codeacademy
@@ -53,15 +52,17 @@ This module should take about **5 - 8 hours** to complete.
 ---
 #### Questions to answer
 
-1. Why do developers use 2 different files for HTML and CSS?
+1. What does CSS stand for? What does the 'cascading' mean?
 
-2. How do you reference an external stylesheet (a `style.css` file) from your .html document?
+2. Why do developers use 2 different files for HTML and CSS?
 
-3. Why is it more useful to reference a class attribute (eg: `.publish-time`) rather than a tag (eg: `h1`) for applying styles ?
+3. How do you reference an external stylesheet (a `style.css` file) from your .html document?
 
-4. What is the difference between using the `id` attribute and the `class` attribute for applying styles?
+4. Why is it more useful to reference a class attribute (eg: `.publish-time`) rather than a tag (eg: `h1`) for applying styles ?
 
-5.  Which what color will the `h4` element be?
+5. What is the difference between using the `id` attribute and the `class` attribute for applying styles?
+
+6.  Which what color will the `h4` element be?
   ```html
   <h4 id="article-02" class="subtitle">
   ```
@@ -80,22 +81,22 @@ This module should take about **5 - 8 hours** to complete.
   }
   ```
 
-6. What is the proper CSS syntax to style all `<a>` elements that are descendants of `<div class="link-group">`
+7. What is the proper CSS syntax to style all `<a>` elements that are descendants of `<div class="link-group">`
 
-7. What is the difference between border, margin, and padding?
+8. What is the difference between border, margin, and padding?
 
-8. What is the purpose of `auto` in `margin: 0 auto`?
+9. What is the purpose of `auto` in `margin: 0 auto`?
 
-9. Why do we use properties such as `min-width` and `max-width` for some elements instead of `width`?
+10. Why do we use properties such as `min-width` and `max-width` for some elements instead of `width`?
 
-10. What is the difference between `position: fixed` and `position: absolute`?
+11. What is the difference between `position: fixed` and `position: absolute`?
 
-11. Why is `position: relative` important with respect to `position: absolute`?
+12. Why is `position: relative` important with respect to `position: absolute`?
 
-12. What is the behavior of a `display: block` element? What are 3 elements that have `display: block` by default?
+13. What is the behavior of a `display: block` element? What are 3 elements that have `display: block` by default?
 
-13. What is the behavior of a `display: inline` element? What is 1 element that has `display: inline` by default?
+14. What is the behavior of a `display: inline` element? What is 1 element that has `display: inline` by default?
 
-14. What is the behavior of a `display: inline-block` element? When is it useful to use `display: inline-block`?
+15. What is the behavior of a `display: inline-block` element? When is it useful to use `display: inline-block`?
 
 ---

@@ -19,7 +19,7 @@
 
 ### JavaScript Foundations
 
-
++ [JS Basics - Part 1](./courseModules/js-foundations/js-basics-1/README.md)
 
 ### Front End Foundations
 
