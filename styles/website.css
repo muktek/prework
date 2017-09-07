@@ -120,7 +120,7 @@ body, li, p {
 
 
 .markdown-section hr + #questions-to-answer ~ * {
-    padding-left: 40px;
+    margin-left: 40px;
 }
 .markdown-section h4#questions-to-answer {
     margin-top: 0;
