@@ -39,16 +39,16 @@ let familyList = [
 
 1. How would you access the first element, `'Jason'`, in the `familyList` array?
 
-  How would you access the third element, `'Carolyn'`?
+2. How would you access the third element, `'Carolyn'`?
 
 
-2. How would you change the 2nd element of the list (`Marisa`)?
+3. How would you change the 2nd element of the list (`Marisa`)?
 
-3. How would you add a new string (`'Luke'`) to the end of the `familyList` array?
+4. How would you add a new string (`'Luke'`) to the end of the `familyList` array?
 
-4. How would you remove 3 items from the end of the `familyList` array?
+5. How would you remove 3 items from the end of the `familyList` array?
 
-5. Explain the loop syntax in your own words
+6. Explain the loop syntax in your own words
   ```js
   for(
     var indexNum = 0; /*(1)*/
@@ -61,7 +61,7 @@ let familyList = [
   }
   ```
 
-6. When would you use a **nested loop** (a loop inside a loop)?
+7. When would you use a **nested loop** (a loop inside a loop)?
 
-7. What causes an **infinite loop**?
+8. What causes an **infinite loop**?
 ---
