@@ -118,6 +118,17 @@ body, li, p {
   margin-bottom: .85em;
 }
 
+
+.markdown-section hr + #questions-to-answer ~ * {
+    padding-left: 40px;
+}
+.markdown-section h4#questions-to-answer {
+    margin-top: 0;
+    display: inline-block;
+    border-bottom: #ddd 1px solid;
+    margin-left: 20px;
+}
+
 div > iframe {
   width: 95% !important;
   margin: 0 auto !important;

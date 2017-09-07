@@ -61,6 +61,8 @@
     <link rel="shortcut icon" href="/assets/images/icono_blanco__icon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="../js-basics-2/" />
+    
     
     <link rel="prev" href="../../html-css-fundamentals/css-basics/" />
     
@@ -208,6 +210,32 @@
             
         </li>
     
+        <li class="chapter " data-level="4.2" data-path="../js-basics-2/">
+            
+                <a href="../js-basics-2/">
+            
+                    
+                    JS Basics - Part 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../js-basics-3/">
+            
+                <a href="../js-basics-3/">
+            
+                    
+                    JS Basics - Part 3
+            
+                </a>
+            
+
+            
+        </li>
+    
 
     
         
@@ -255,7 +283,7 @@
                             
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="js-basics">JS Basics</h1>
+                                <h1 id="js-basics---part-1">JS Basics - Part 1</h1>
 <h2 id="overview">Overview</h2>
 <p>The front-end of the web is composed of three languages:</p>
 <ul>
@@ -271,7 +299,7 @@
 <img src="../../../assets/images/js-demo.gif" alt="demo-js"></li>
 </ul>
 <p>Javascript has grown in popularity and developers now use the language on the client-side (for user-interface logic) and on the server-side (for business/database logic).</p>
-<p>In the modules for this section, we are going to practice and re-practice the basics of the language. Finally, in the next module, we will see how to use Javascript to make a webpage respond to user actions.</p>
+<p>In the modules for this section, we are going to practice and re-practice the basics of the language. Finally, in the next section, we will see how to use Javascript to make a webpage respond to user actions.</p>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <p>The goal of this module is to develop familiarity with basic Javascript syntax and programming logic.</p>
 <ul>
@@ -300,12 +328,13 @@
 </li>
 </ul>
 <h2 id="assignment">Assignment</h2>
-<h4 id="complete-introduction-to-javascript--variables-and--control-flow--and--modules-on-codeacademy">Complete <em>Introduction to Javascript</em> , <em>Variables</em> and , <em>Control Flow</em> , and * modules on codeacademy</h4>
+<h4 id="complete">Complete</h4>
 <ul>
 <li><a href="https://www.codecademy.com/courses/learn-javascript-introduction/lessons/introduction-to-javascript/exercises/intro" target="_blank">Codeacademy: Introduction To JavaScript</a></li>
 <li><a href="https://www.codecademy.com/courses/learn-javascript-introduction/lessons/variables/exercises/intro-variables" target="_blank">Codeacademy: Variables</a></li>
 <li><a href="https://www.codecademy.com/courses/learn-javascript-control-flow/lessons/control-flow/exercises/control-flow-intro" target="_blank">Codeacademy: Introduction to Control Flow</a> (if-else)</li>
 </ul>
+<p>This module should take about <strong>7 - 10 hours</strong> to complete.</p>
 <p><small><strong>NOTE:</strong> You will need to register a free account with codeacademy. You do not have to pay for the service to take this mini-course.</small></p>
 <hr>
 <h4 id="questions-to-answer">Questions to answer</h4>
@@ -349,22 +378,19 @@
 
 <span class="hljs-comment">//(b)</span>
 <span class="hljs-keyword">if</span>(yourName){
-<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Your name is blank&apos;</span>);
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Your name is blank&apos;</span>);
 } <span class="hljs-keyword">else</span> {
-<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Nobody knows your name&apos;</span>);
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Nobody knows your name&apos;</span>);
 }
 
 <span class="hljs-comment">// (b)</span>
 <span class="hljs-keyword">if</span>(zeroHero){
-<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Hero&apos;</span>);
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Hero&apos;</span>);
 } <span class="hljs-keyword">else</span> {
-<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Zero&apos;</span>);
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Zero&apos;</span>);
 }
 </code></pre>
 </li>
-</ol>
-<hr>
-<ol>
 <li><p>What are the values of <code>passedTest</code>, <code>txtResult</code>, and <code>numResult</code>?</p>
 <pre><code class="lang-js"><span class="hljs-keyword">let</span> passingScore = <span class="hljs-number">60</span>;
 <span class="hljs-keyword">let</span> myScore = <span class="hljs-number">77</span>;
@@ -377,40 +403,44 @@
 <li><p>Where is it normally useful to apply the <code>===</code> and <code>!==</code> operators?</p>
 </li>
 <li><p>Which code blocks will run for <code>(a)</code>, <code>(b)</code>, <code>(c)</code>, <code>(d)</code>?</p>
-<p>```js
-let feelingHappy = true;
-let isWarmOutside = false;
-let isCloudyOutside = false;</p>
-<p>//(a)
-if( feelingHappy === true &amp;&amp; isWarmOutside === true){
-console.log(&apos;Wear a red shirt&apos;);
-} else {
-console.log(&apos;Wear a blue shirt&apos;);
-}</p>
-<p>//(b)
-if( feelingHappy === true || isWarmOutside === true){
-console.log(&apos;Wear a green shirt&apos;);
-} else {
-console.log(&apos;Wear a yellow shirt&apos;);
-}</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> feelingHappy = <span class="hljs-literal">true</span>;
+<span class="hljs-keyword">let</span> isWarmOutside = <span class="hljs-literal">false</span>;
+<span class="hljs-keyword">let</span> isCloudyOutside = <span class="hljs-literal">false</span>;
+
+<span class="hljs-comment">//(a)</span>
+<span class="hljs-keyword">if</span>( feelingHappy === <span class="hljs-literal">true</span> &amp;&amp; isWarmOutside === <span class="hljs-literal">true</span>){
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Wear a red shirt&apos;</span>);
+} <span class="hljs-keyword">else</span> {
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Wear a blue shirt&apos;</span>);
+}
+
+<span class="hljs-comment">//(b)</span>
+<span class="hljs-keyword">if</span>( feelingHappy === <span class="hljs-literal">true</span> || isWarmOutside === <span class="hljs-literal">true</span>){
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Wear a green shirt&apos;</span>);
+} <span class="hljs-keyword">else</span> {
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Wear a yellow shirt&apos;</span>);
+}
+
+<span class="hljs-comment">//(c)</span>
+<span class="hljs-keyword">if</span>( feelingHappy === <span class="hljs-literal">true</span> &amp;&amp; isWarmOutside === <span class="hljs-literal">false</span> ){
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Wear a purple shirt&apos;</span>);
+} <span class="hljs-keyword">else</span> {
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Wear a brown shirt&apos;</span>);
+}
+
+<span class="hljs-comment">//(d)</span>
+<span class="hljs-keyword">if</span>(
+feelingHappy === <span class="hljs-literal">true</span> ||
+(isWarmOutside === <span class="hljs-literal">true</span> &amp;&amp; isCloudyOutside === <span class="hljs-literal">true</span>)
+){
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Wear a purple shirt&apos;</span>);
+} <span class="hljs-keyword">else</span> {
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Wear a brown shirt&apos;</span>);
+}
+</code></pre>
 </li>
 </ol>
-<p> //(c)
- if( feelingHappy === true &amp;&amp; isWarmOutside === false ){
-   console.log(&apos;Wear a purple shirt&apos;);
- } else {
-   console.log(&apos;Wear a brown shirt&apos;);
- }</p>
-<p> //(d)
- if(
-   feelingHappy === true ||
-   (isWarmOutside === true &amp;&amp; isCloudyOutside === true)
- ){
-   console.log(&apos;Wear a purple shirt&apos;);
- } else {
-   console.log(&apos;Wear a brown shirt&apos;);
- }
- ```</p>
+<hr>
 
                                 
                                 </section>
@@ -422,10 +452,14 @@ console.log(&apos;Wear a yellow shirt&apos;);
 
             
                 
-                <a href="../../html-css-fundamentals/css-basics/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: CSS Basics">
+                <a href="../../html-css-fundamentals/css-basics/" class="navigation navigation-prev " aria-label="Previous page: CSS Basics">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="../js-basics-2/" class="navigation navigation-next " aria-label="Next page: JS Basics - Part 2">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -434,7 +468,7 @@ console.log(&apos;Wear a yellow shirt&apos;);
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"JS Basics - Part 1","level":"4.1","depth":1,"previous":{"title":"CSS Basics","level":"3.2","depth":1,"path":"courseModules/html-css-fundamentals/css-basics/README.md","ref":"./courseModules/html-css-fundamentals/css-basics/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["youtube","livereload"],"pluginsConfig":{"youtube":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"courseModules/js-foundations/js-basics-1/README.md","mtime":"2017-09-06T19:09:17.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-09-06T19:05:30.402Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"JS Basics - Part 1","level":"4.1","depth":1,"next":{"title":"JS Basics - Part 2","level":"4.2","depth":1,"path":"courseModules/js-foundations/js-basics-2/README.md","ref":"./courseModules/js-foundations/js-basics-2/README.md","articles":[]},"previous":{"title":"CSS Basics","level":"3.2","depth":1,"path":"courseModules/html-css-fundamentals/css-basics/README.md","ref":"./courseModules/html-css-fundamentals/css-basics/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["youtube"],"pluginsConfig":{"youtube":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"courseModules/js-foundations/js-basics-1/README.md","mtime":"2017-09-06T19:42:37.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-09-07T00:40:05.535Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
@@ -442,10 +476,6 @@ console.log(&apos;Wear a yellow shirt&apos;);
         
     <script src="../../../gitbook/gitbook.js"></script>
     <script src="../../../gitbook/theme.js"></script>
-    
-        
-        <script src="../../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
-        
     
         
         <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>

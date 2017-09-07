@@ -38,14 +38,14 @@ The goal of this module is to develop familiarity with CSS syntax and how CSS is
 
 ## Assignment
 
-#### Complete <u>*Learn CSS*</u> module on codeacademy
+#### Complete
+
++ [Codeacademy: Learn CSS](https://www.codecademy.com/learn/learn-css)
 
 This module should take about **5 - 8 hours** to complete.
 
 > *Read the explanations and examples in the left panel before and while you complete the code exercises. It is important that you <u>understand</u> what is happening when you modify the code.*
 
-
-[Codeacademy: Learn CSS](https://www.codecademy.com/learn/learn-css)
 
 **NOTE:** You will need to register a free account with codeacademy. You will not need to sign up for 'Pro' and pay for the service to satisfactorily complete this mini-course.
 

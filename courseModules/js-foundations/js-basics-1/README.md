@@ -1,4 +1,4 @@
-# JS Basics
+# JS Basics - Part 1
 
 ## Overview
 
@@ -18,7 +18,7 @@ This module focuses on Javascript, the language used for making webpages interac
 
 Javascript has grown in popularity and developers now use the language on the client-side (for user-interface logic) and on the server-side (for business/database logic).
 
-In the modules for this section, we are going to practice and re-practice the basics of the language. Finally, in the next module, we will see how to use Javascript to make a webpage respond to user actions.
+In the modules for this section, we are going to practice and re-practice the basics of the language. Finally, in the next section, we will see how to use Javascript to make a webpage respond to user actions.
 
 ## Learning Objectives
 
@@ -45,10 +45,13 @@ The goal of this module is to develop familiarity with basic Javascript syntax a
 
 ## Assignment
 
-#### Complete *Introduction to Javascript* , *Variables* and , *Control Flow* , and * modules on codeacademy
+#### Complete
+
 - [Codeacademy: Introduction To JavaScript](https://www.codecademy.com/courses/learn-javascript-introduction/lessons/introduction-to-javascript/exercises/intro)
 - [Codeacademy: Variables](https://www.codecademy.com/courses/learn-javascript-introduction/lessons/variables/exercises/intro-variables)
 - [Codeacademy: Introduction to Control Flow](https://www.codecademy.com/courses/learn-javascript-control-flow/lessons/control-flow/exercises/control-flow-intro) (if-else)
+
+This module should take about **7 - 10 hours** to complete.
 
 <small>**NOTE:** You will need to register a free account with codeacademy. You do not have to pay for the service to take this mini-course.</small>
 
@@ -91,21 +94,20 @@ The goal of this module is to develop familiarity with basic Javascript syntax a
 
   //(b)
   if(yourName){
-    console.log('Your name is blank');
+      console.log('Your name is blank');
   } else {
-    console.log('Nobody knows your name');
+      console.log('Nobody knows your name');
   }
 
   // (b)
   if(zeroHero){
-    console.log('Hero');
+      console.log('Hero');
   } else {
-    console.log('Zero');
+      console.log('Zero');
   }
   ```
----
 
-16. What are the values of `passedTest`, `txtResult`, and `numResult`?
+14. What are the values of `passedTest`, `txtResult`, and `numResult`?
   ```js
   let passingScore = 60;
   let myScore = 77;
@@ -115,44 +117,43 @@ The goal of this module is to develop familiarity with basic Javascript syntax a
   let txtResult = 'Mister Potato' !== 'mister potato';
   ```
 
-17. Where is it normally useful to apply the `===` and `!==` operators?
+15. Where is it normally useful to apply the `===` and `!==` operators?
 
-18. Which code blocks will run for `(a)`, `(b)`, `(c)`, `(d)`?
+16. Which code blocks will run for `(a)`, `(b)`, `(c)`, `(d)`?
+  ```js
+  let feelingHappy = true;
+  let isWarmOutside = false;
+  let isCloudyOutside = false;
 
- ```js
- let feelingHappy = true;
- let isWarmOutside = false;
- let isCloudyOutside = false;
+  //(a)
+  if( feelingHappy === true && isWarmOutside === true){
+       console.log('Wear a red shirt');
+  } else {
+       console.log('Wear a blue shirt');
+  }
 
- //(a)
- if( feelingHappy === true && isWarmOutside === true){
-   console.log('Wear a red shirt');
- } else {
-   console.log('Wear a blue shirt');
- }
+  //(b)
+  if( feelingHappy === true || isWarmOutside === true){
+       console.log('Wear a green shirt');
+  } else {
+       console.log('Wear a yellow shirt');
+  }
 
- //(b)
- if( feelingHappy === true || isWarmOutside === true){
-   console.log('Wear a green shirt');
- } else {
-   console.log('Wear a yellow shirt');
- }
+  //(c)
+  if( feelingHappy === true && isWarmOutside === false ){
+       console.log('Wear a purple shirt');
+  } else {
+       console.log('Wear a brown shirt');
+  }
 
-
- //(c)
- if( feelingHappy === true && isWarmOutside === false ){
-   console.log('Wear a purple shirt');
- } else {
-   console.log('Wear a brown shirt');
- }
-
- //(d)
- if(
-   feelingHappy === true ||
-   (isWarmOutside === true && isCloudyOutside === true)
- ){
-   console.log('Wear a purple shirt');
- } else {
-   console.log('Wear a brown shirt');
- }
- ```
+  //(d)
+  if(
+    feelingHappy === true ||
+    (isWarmOutside === true && isCloudyOutside === true)
+  ){
+       console.log('Wear a purple shirt');
+  } else {
+       console.log('Wear a brown shirt');
+  }
+  ```
+---
