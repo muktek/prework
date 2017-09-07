@@ -41,7 +41,6 @@ let familyList = [
 
 2. How would you access the third element, `'Carolyn'`?
 
-
 3. How would you change the 2nd element of the list (`Marisa`)?
 
 4. How would you add a new string (`'Luke'`) to the end of the `familyList` array?
