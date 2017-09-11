@@ -27,5 +27,4 @@
 ### Javascript Essentials
 
 + [Re-Introduction to JS](./courseModules/js-essentials/re-intro-to-js/README.md)
-+ [Syntax Basics](./courseModules/js-essentials/syntax-basics-1/README.md)
 

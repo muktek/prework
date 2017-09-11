@@ -45,7 +45,7 @@ Our goal in this *Javascript Essentials*  section is to provide you with a deepe
 2. How do you open the Javascript console window in your browser?
 
 
-##### Section-5: Objects in Javascript
+##### Section-5: Javascript Console
 
 1. Why are objects important?
 
@@ -59,7 +59,9 @@ Our goal in this *Javascript Essentials*  section is to provide you with a deepe
 
 2. What is an API as it relates to the Javascript in the browser?
 
+
 3. What is the `window` object?
+
 
 4. What is an API extension?
 

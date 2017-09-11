@@ -20,7 +20,7 @@ function generateCourse(name){
 
   course.generateSection('js-essentials', 'Javascript Essentials')
   course.generateAssignment('js-essentials', 're-intro-to-js', 'Re-Introduction to JS')
-  course.generateAssignment('js-essentials', 'syntax-basics-1', 'Syntax Basics')
+  // course.generateAssignment('js-essentials', 'syntax-basics-1', 'Syntax Basics')
 
 
   return course
