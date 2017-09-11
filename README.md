@@ -15,4 +15,4 @@ Prework is material that ensures you have the basic foundation required for the 
 | 1 | Developer Foundations | <ul><li>Growth Mindset </li><li>Web Basics</li></ul> |
 | 2 | Front End Fundamentals | <ul><li>HTML Basics</li><li>CSS Basics</li></ul> |
 | 3 | Javascript Foundations | <ul><li>Javascript Basics - 1</li><li>Javascript Basics - 2</li><li>Javascript Basics - 3</li><li>Javascript Basics - 4</li></ul> |
-| 4 | Frontend Foundations | <ul><li>HTML + CSS + JS</li><li>Javascript and the DOM</li></ul> |
+| 4 | Javascript Essentials | <ul><li>Re-introduction to JS</li><li>Javascrypt Syntax - 1</li><li>Javascrypt Syntax - 2</li><li>Javascrypt Syntax - 3</li><li>Comparison & Conditional Execution</li><li>DOM Manipulation - 1</li><li>DOM Manipulation - 2</li></ul> |
