@@ -27,7 +27,7 @@ The goal of this module is to develop familiarity with:
 ## Assignment
 
 #### Complete
-- [Codeacademy: Objects](https://www.codecademy.com/courses/learn-javascript-objects/lessons/objects/exercises)
+- [Codeacademy: Objects](https://www.codecademy.com/courses/learn-javascript-objects/lessons/objects/exercises/intro)
 
 This module should take about **1 - 3 hours** to complete.
 

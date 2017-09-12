@@ -16,7 +16,7 @@ The goal of this module is to develop familiarity with:
 
 #### Complete
 - [Codeacademy: Arrays](https://www.codecademy.com/courses/learn-javascript-arrays/lessons/arrays/exercises/arrays)
-- [Codeacademy: Loops](https://www.codecademy.com/courses/learn-javascript-scope/lessons/scope/exercises/loops)
+- [Codeacademy: Loops](https://www.codecademy.com/courses/learn-javascript-loops/lessons/loops/exercises/loops)
 
 
 This module should take about **1 - 2 hours** to complete.
