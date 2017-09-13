@@ -1,4 +1,4 @@
-# JS Essentials - Re-Introduction to JS
+# JS Essentials - Objects and Arrays
 
 ## Overview
 
@@ -14,18 +14,122 @@ Our goal in this *Javascript Essentials*  section is to provide you with a deepe
 
 ## Learning Objectives
 
+- Conceptual understanding of objects v. arrays.
+- Accessing nested properties in arrays/objects
+- Using bracket notation to dynamically access object properties.
 
 ## Assignment
 
 Complete:
 
-- [Part-13: Objects & Arrays](https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/4275884?start=0)
-- [Part-14: Embedding Objects & Arrays](https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/4275886?start=0)
-- [Part-15: Member Access](https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/4275888?start=0)
-- [Part-16: Computed Member Access](https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/7166408?start=0)
-- [Part-17: Member Creation, Assignment, Deletion](https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/4275890?start=0)
+- [Lecture-13: Objects & Arrays](https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/4275884?start=0)
+- [Lecture-14: Embedding Objects & Arrays](https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/4275886?start=0)
+- [Lecture-15: Member Access](https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/4275888?start=0)
+- [Lecture-16: Computed Member Access](https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/7166408?start=0)
+- [Lecture-17: Member Creation, Assignment, Deletion](https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/4275890?start=0)
 
 ---
 #### Questions to answer
+
+##### Lecture-13: Objects & Arrays
+1. What is a good real-life example of an object? What is a good real-life example of an array?
+
+2. Why is an array a special type of object?
+
+3. Why do we store objects in variables?
+
+##### Lecture-14: Embedding Objects & Arrays
+
+1. Would you execute the function in this array
+
+  ```js
+  var greetingsArr = [
+    'hello',
+    function(name){ return "hi, " + name },
+    'what\'s up?',
+    'yo'
+  ]
+
+  ```
+
+##### Lecture-15: Member Access
+
+1. How would you access the `postcode` value on the `result` variable?
+
+2. How would you access the age of carolina on the `children` array on the `result` variable?
+
+  ```js
+  var result = {
+    data: {
+      gender: "male",
+      name: {
+        title: "mr",
+        first: "nélio",
+        last: "lima"
+      },
+      location: {
+        street: "1173 rua maranhão ",
+        city: "mossoró",
+        state: "distrito federal",
+        postcode: 44680
+      },
+      children: [
+        {
+          name: 'alejandra'
+          gender: 'female',
+          age: 4
+        },
+        {
+          name: 'carolina',
+          gender: 'female',
+          age: 7
+        }
+      ]
+    },
+    info: {
+      version: 1.1,
+      seed: "33da28784f117ada"
+    }
+  }
+  ```
+
+##### Lecture-16: Computed Member Access
+
+##### Lecture-17: Member Creation, Assignment, Deletion
+
+1. How would you access the value located at `rom_med.png`?
+  *note: `profile.images.200px` throws a syntax error*
+
+2. What value will be logged to the console.log in the code below with `profile[name]`?
+
+3. How do I changes the `nickName` property to the string `'Romulus'`?
+
+4. How can I delete the `password` property?
+
+  ```js
+  var profile = {
+    properName: "Romina",
+    nickName: "Romy",
+    age: 18,
+    password: 'secretpassw0rd',
+    images: {
+      '100px' : 'rom_tn.png',
+      '200px' : 'rom_med.png',
+      '300px' : 'rom_lg.png'
+    }
+  }
+
+  const informalNote = false
+
+  let name
+  if(informalNote === true){
+    name = 'nickName'
+  } else {
+    name = 'properName'
+  }
+
+  console.log( profile[name] )
+
+  ```
 
 ---

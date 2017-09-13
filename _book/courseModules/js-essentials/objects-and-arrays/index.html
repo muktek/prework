@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Muktek Prework | Functions and Conditionals · GitBook</title>
+        <title>Muktek Prework | Objects and Arrays · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -61,10 +61,8 @@
     <link rel="shortcut icon" href="/assets/images/icono_blanco__icon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../objects-and-arrays/" />
     
-    
-    <link rel="prev" href="../primitive-data-types/" />
+    <link rel="prev" href="../functions-and-conditionals/" />
     
 
     </head>
@@ -286,9 +284,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="5.3" data-path="./">
+        <li class="chapter " data-level="5.3" data-path="../functions-and-conditionals/">
             
-                <a href="./">
+                <a href="../functions-and-conditionals/">
             
                     
                     Functions and Conditionals
@@ -299,9 +297,9 @@
             
         </li>
     
-        <li class="chapter " data-level="5.4" data-path="../objects-and-arrays/">
+        <li class="chapter active" data-level="5.4" data-path="./">
             
-                <a href="../objects-and-arrays/">
+                <a href="./">
             
                     
                     Objects and Arrays
@@ -336,7 +334,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../../.." >Functions and Conditionals</a>
+        <a href="../../.." >Objects and Arrays</a>
     </h1>
 </div>
 
@@ -348,7 +346,7 @@
                             
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="js-essentials---functions--conditionals">JS Essentials - Functions + Conditionals</h1>
+                                <h1 id="js-essentials---objects-and-arrays">JS Essentials - Objects and Arrays</h1>
 <h2 id="overview">Overview</h2>
 <p>This section is primarily focused reenforcing and expanding your understanding of the fundamentals of Javascript. We will cover all of the concepts from this video series during the 12-week course, however, you will derive a lot more benefit from the course if you have familiarity with essential concepts of the language and the Javascript console.  </p>
 <p>We are recommending that you work through this excellent video-course:</p>
@@ -357,83 +355,118 @@
 <p>Our goal in this <em>Javascript Essentials</em>  section is to provide you with a deeper knowledge of the fundamentals of the language and help you form an understanding of general programming. When you truly understand the language fundamentals, you will increase your problem solving abilities, you will understand the tools you use, and you will have greater longevity as a developer.</p>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <ul>
-<li>Function scope and execution context.</li>
-<li>Function Parameters</li>
-<li>Difference between <code>==</code> and <code>===</code> in JS.</li>
-<li>More practice with boolean operators</li>
+<li>Conceptual understanding of objects v. arrays.</li>
+<li>Accessing nested properties in arrays/objects</li>
+<li>Using bracket notation to dynamically access object properties.</li>
 </ul>
 <h2 id="assignment">Assignment</h2>
 <p>Complete:</p>
 <ul>
-<li><a href="https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/4275892?start=0" target="_blank">Lecture-12: Functions &amp; Subroutines</a></li>
-<li><a href="https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/4275892?start=0" target="_blank">Lecture-27: Comparison Operators</a></li>
-<li><a href="https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/4275904?start=0" target="_blank">Lecture-28: If Statements</a></li>
+<li><a href="https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/4275884?start=0" target="_blank">Lecture-13: Objects &amp; Arrays</a></li>
+<li><a href="https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/4275886?start=0" target="_blank">Lecture-14: Embedding Objects &amp; Arrays</a></li>
+<li><a href="https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/4275888?start=0" target="_blank">Lecture-15: Member Access</a></li>
+<li><a href="https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/7166408?start=0" target="_blank">Lecture-16: Computed Member Access</a></li>
+<li><a href="https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/4275890?start=0" target="_blank">Lecture-17: Member Creation, Assignment, Deletion</a></li>
 </ul>
 <hr>
 <h4 id="questions-to-answer">Questions to answer</h4>
-<h5 id="lecture-12-functions-or-subroutines">Lecture-12: Functions or Subroutines</h5>
+<h5 id="lecture-13-objects--arrays">Lecture-13: Objects &amp; Arrays</h5>
 <ol>
-<li><p>What is the difference between a function parameter and a <code>var</code> variable?</p>
+<li><p>What is a good real-life example of an object? What is a good real-life example of an array?</p>
 </li>
-<li><p>Is it possible to access the value of <code>quantity</code> as shown in the <code>console.log(...)</code>. Why or why not?</p>
+<li><p>Why is an array a special type of object?</p>
+</li>
+<li><p>Why do we store objects in variables?</p>
 </li>
 </ol>
-<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">makeInstruction</span>(<span class="hljs-params">num, measurement, item</span>)</span>{
-  <span class="hljs-keyword">var</span> quanity = <span class="hljs-string">&quot;Add&quot;</span> + num + unit +  <span class="hljs-string">&quot; of &quot;</span>
-  <span class="hljs-keyword">var</span> instruction = quantity + item
-  <span class="hljs-keyword">return</span> recipe
+<h5 id="lecture-14-embedding-objects--arrays">Lecture-14: Embedding Objects &amp; Arrays</h5>
+<ol>
+<li><p>Would you execute the function in this array</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> greetingsArr = [
+ <span class="hljs-string">&apos;hello&apos;</span>,
+ <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">name</span>)</span>{ <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;hi, &quot;</span> + name },
+ <span class="hljs-string">&apos;what\&apos;s up?&apos;</span>,
+ <span class="hljs-string">&apos;yo&apos;</span>
+]
+</code></pre>
+</li>
+</ol>
+<h5 id="lecture-15-member-access">Lecture-15: Member Access</h5>
+<ol>
+<li><p>How would you access the <code>postcode</code> value on the <code>result</code> variable?</p>
+</li>
+<li><p>How would you access the age of carolina on the <code>children</code> array on the <code>result</code> variable?</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> result = {
+ data: {
+   gender: <span class="hljs-string">&quot;male&quot;</span>,
+   name: {
+     title: <span class="hljs-string">&quot;mr&quot;</span>,
+     first: <span class="hljs-string">&quot;n&#xE9;lio&quot;</span>,
+     last: <span class="hljs-string">&quot;lima&quot;</span>
+   },
+   location: {
+     street: <span class="hljs-string">&quot;1173 rua maranh&#xE3;o &quot;</span>,
+     city: <span class="hljs-string">&quot;mossor&#xF3;&quot;</span>,
+     state: <span class="hljs-string">&quot;distrito federal&quot;</span>,
+     postcode: <span class="hljs-number">44680</span>
+   },
+   children: [
+     {
+       name: <span class="hljs-string">&apos;alejandra&apos;</span>
+       gender: <span class="hljs-string">&apos;female&apos;</span>,
+       age: <span class="hljs-number">4</span>
+     },
+     {
+       name: <span class="hljs-string">&apos;carolina&apos;</span>,
+       gender: <span class="hljs-string">&apos;female&apos;</span>,
+       age: <span class="hljs-number">7</span>
+     }
+   ]
+ },
+ info: {
+   version: <span class="hljs-number">1.1</span>,
+   seed: <span class="hljs-string">&quot;33da28784f117ada&quot;</span>
+ }
+}
+</code></pre>
+</li>
+</ol>
+<h5 id="lecture-16-computed-member-access">Lecture-16: Computed Member Access</h5>
+<h5 id="lecture-17-member-creation-assignment-deletion">Lecture-17: Member Creation, Assignment, Deletion</h5>
+<ol>
+<li><p>How would you access the value located at <code>rom_med.png</code>?
+<em>note: <code>profile.images.200px</code> throws a syntax error</em></p>
+</li>
+<li><p>What value will be logged to the console.log in the code below with <code>profile[name]</code>?</p>
+</li>
+<li><p>How do I changes the <code>nickName</code> property to the string <code>&apos;Romulus&apos;</code>?</p>
+</li>
+<li><p>How can I delete the <code>password</code> property?</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> profile = {
+ properName: <span class="hljs-string">&quot;Romina&quot;</span>,
+ nickName: <span class="hljs-string">&quot;Romy&quot;</span>,
+ age: <span class="hljs-number">18</span>,
+ password: <span class="hljs-string">&apos;secretpassw0rd&apos;</span>,
+ images: {
+   <span class="hljs-string">&apos;100px&apos;</span> : <span class="hljs-string">&apos;rom_tn.png&apos;</span>,
+   <span class="hljs-string">&apos;200px&apos;</span> : <span class="hljs-string">&apos;rom_med.png&apos;</span>,
+   <span class="hljs-string">&apos;300px&apos;</span> : <span class="hljs-string">&apos;rom_lg.png&apos;</span>
+ }
 }
 
-makeInstruction(<span class="hljs-number">2</span>, <span class="hljs-string">&apos;cups&apos;</span>, <span class="hljs-string">&apos;flour&apos;</span>) <span class="hljs-comment">//Add 2 cups of flour</span>
-<span class="hljs-built_in">console</span>.log(quantity)
-</code></pre>
-<h5 id="lecture-27-comparison-operators">Lecture-27: Comparison Operators</h5>
-<ol>
-<li><p>What is the boolean value of the following expressions?</p>
-<pre><code class="lang-js"><span class="hljs-comment">//(a)</span>
-<span class="hljs-number">10</span> == <span class="hljs-number">10</span>
+<span class="hljs-keyword">const</span> informalNote = <span class="hljs-literal">false</span>
 
-<span class="hljs-comment">//(b)</span>
-<span class="hljs-number">10</span> !== <span class="hljs-number">12</span>
+<span class="hljs-keyword">let</span> name
+<span class="hljs-keyword">if</span>(informalNote === <span class="hljs-literal">true</span>){
+ name = <span class="hljs-string">&apos;nickName&apos;</span>
+} <span class="hljs-keyword">else</span> {
+ name = <span class="hljs-string">&apos;properName&apos;</span>
+}
 
-<span class="hljs-comment">//(c)</span>
-<span class="hljs-string">&quot;Will&quot;</span> === <span class="hljs-string">&quot;Will&quot;</span>
-
-<span class="hljs-comment">//(d)</span>
-<span class="hljs-literal">null</span> === <span class="hljs-literal">undefined</span>
-
-<span class="hljs-comment">//(e)</span>
-<span class="hljs-number">12</span> === <span class="hljs-string">&apos;12&apos;</span>
-
-<span class="hljs-comment">//(f)</span>
-!<span class="hljs-literal">false</span> === <span class="hljs-literal">true</span>
+<span class="hljs-built_in">console</span>.log( profile[name] )
 </code></pre>
 </li>
-<li><p>Why should we use the <code>===</code> instead of <code>==</code>?</p>
-</li>
 </ol>
-<h5 id="lecture-28-if-statements">Lecture-28: If Statements</h5>
-<ol>
-<li><p>What is the boolean value of the following expressions?</p>
-<p>```js
-var userScore = 80
-var passingScore = 65
-var excellentScore = 94
-var medianScore 60
-var privilegedUser = true</p>
-<p>// (a)
-userScore &gt; passingScore &amp;&amp;   userScore &gt; excellentScore</p>
-<p>// (b)
-userScore &gt; passingScore || userScore &gt; excellentScore</p>
-<p>//(c)
-privilegedUser || userScore &gt; excellentScore</p>
-<p>//(d)
-medianScore &lt; passingScore &amp;&amp; (userScore &lt; medianScore || privelegedUser)</p>
-<p>//(e)
-!(medianScore &gt; passingScore) || userScore &gt; excellentScore</p>
-</li>
-</ol>
-<p>```</p>
 <hr>
 
                                 
@@ -446,14 +479,10 @@ medianScore &lt; passingScore &amp;&amp; (userScore &lt; medianScore || priveleg
 
             
                 
-                <a href="../primitive-data-types/" class="navigation navigation-prev " aria-label="Previous page: Primitive Data Types">
+                <a href="../functions-and-conditionals/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Functions and Conditionals">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="../objects-and-arrays/" class="navigation navigation-next " aria-label="Next page: Objects and Arrays">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -462,7 +491,7 @@ medianScore &lt; passingScore &amp;&amp; (userScore &lt; medianScore || priveleg
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Functions and Conditionals","level":"5.3","depth":1,"next":{"title":"Objects and Arrays","level":"5.4","depth":1,"path":"courseModules/js-essentials/objects-and-arrays/README.md","ref":"./courseModules/js-essentials/objects-and-arrays/README.md","articles":[]},"previous":{"title":"Primitive Data Types","level":"5.2","depth":1,"path":"courseModules/js-essentials/primitive-data-types/README.md","ref":"./courseModules/js-essentials/primitive-data-types/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["youtube"],"pluginsConfig":{"youtube":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"courseModules/js-essentials/functions-and-conditionals/README.md","mtime":"2017-09-12T17:57:08.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-09-12T19:07:39.325Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Objects and Arrays","level":"5.4","depth":1,"previous":{"title":"Functions and Conditionals","level":"5.3","depth":1,"path":"courseModules/js-essentials/functions-and-conditionals/README.md","ref":"./courseModules/js-essentials/functions-and-conditionals/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["youtube"],"pluginsConfig":{"youtube":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"courseModules/js-essentials/objects-and-arrays/README.md","mtime":"2017-09-12T19:07:27.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-09-12T19:07:39.325Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>

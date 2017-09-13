@@ -26,4 +26,25 @@ Complete:
 ---
 #### Questions to answer
 
+##### Lecture-18: Array Modification
+
+```js
+let superduperArray = ['a', 'b', 'c', 'd', 'e']
+```
+
+1. What array method would you use to add the string `'hi guys'` to  the *beginning* of `superduperArray`?
+
+2. What array method would you use to add the string `'bye guys'` to  the *end* of `superduperArray`?
+
+3. What array method would you use to remove the *first* element of the `superduperArray` array?
+
+4. What array method you use to remove the *last* element of the `superduperArray` array?
+
+
+##### Lecture-29: For & For-in Loops
+
+1. Why do loops give a program flexibility?
+
+2.
+
 ---

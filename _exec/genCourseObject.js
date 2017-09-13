@@ -22,7 +22,7 @@ function generateCourse(name){
   course.generateAssignment('js-essentials', 're-intro-to-js', 'Re-Introduction to JS')
   course.generateAssignment('js-essentials', 'primitive-data-types', 'Primitive Data Types')
   course.generateAssignment('js-essentials', 'functions-and-conditionals', 'Functions and Conditionals')
-  // course.generateAssignment('js-essentials', 'syntax-basics-3', 'Syntax Basics - Objects')
+  course.generateAssignment('js-essentials', 'objects-and-arrays', 'Objects and Arrays')
   // course.generateAssignment('js-essentials', 'syntax-basics-4', 'Syntax Basics - Arrays + Loops')
   // course.generateAssignment('js-essentials', 'dom-manipulations-1', 'DOM Manipulation - Accessing + Modifying Elements')
   // course.generateAssignment('js-essentials', 'dom-manipulations-2', 'DOM Manipulation - Event Handling')

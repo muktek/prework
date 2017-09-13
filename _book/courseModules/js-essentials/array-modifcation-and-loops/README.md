@@ -1,4 +1,4 @@
-# JS Essentials - Re-Introduction to JS
+# JS Essentials - Array Modification and Loops
 
 ## Overview
 
@@ -19,9 +19,9 @@ Our goal in this *Javascript Essentials*  section is to provide you with a deepe
 
 Complete:
 
-- Part-18: Array Modification
-- Part-29: For & For-in Loops
-- Part-30: Let ES6
+- [Lecture-18: Array Modification](https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/7167614?start=0)
+- [Lecture-29: For & For-in Loops](https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/4275906?start=0)
+- [Lecture-30: Let ES6](https://www.udemy.com/javascript-essentials/learn/v4/t/lecture/7190772?start=0)
 
 ---
 #### Questions to answer

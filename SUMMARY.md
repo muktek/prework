@@ -29,4 +29,5 @@
 + [Re-Introduction to JS](./courseModules/js-essentials/re-intro-to-js/README.md)
 + [Primitive Data Types](./courseModules/js-essentials/primitive-data-types/README.md)
 + [Functions and Conditionals](./courseModules/js-essentials/functions-and-conditionals/README.md)
++ [Objects and Arrays](./courseModules/js-essentials/objects-and-arrays/README.md)
 
